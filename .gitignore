@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+*.backup
+*.tmp
+
+# Database
+*.sqlite
+*.db
+
+# Cache
+.cache/
+.eslintcache
+
+# Documentación antigua (ignorar)
+ASISTENTE_VIRTUAL.md
+CAMBIOS_REALIZADOS.md
+CONEXION_SOLUCION.md
+FIXED_LOGIN_FLOW.md
+FIXES_REALIZADAS.md
+FIX_CONNECTION_ERROR.md
+API-DOCUMENTATION.md
+DEPLOYMENT.md
+DOCUMENTATION_INDEX.md
+IMPLEMENTATION_SUMMARY.md
+SESSION_COMPLETION_SUMMARY.md
+QUICK_START.md
+PROYECTO_RESUMEN.txt
+PUSH_TO_GITHUB.sh
+
+# Test files
+test-api.js
+test-connection.js
+
+# Git
+repo_github/

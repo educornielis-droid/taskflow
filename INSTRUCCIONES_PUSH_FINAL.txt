@@ -1,0 +1,121 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║         🚀 INSTRUCCIONES FINALES PARA SUBIR A GITHUB                       ║
+║                                                                            ║
+║  Proyecto: TaskFlow - Sistema de Gestión de Proyectos                    ║
+║  Repositorio: https://github.com/aria267-lab/proyecto-taskflow            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📍 UBICACIÓN DEL PROYECTO:
+   C:\Users\crist\Downloads\taskflow_1\taskflow_final
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ YA ESTÁ TODO LISTO
+
+Los siguientes archivos se han preparado:
+  ✅ .gitignore - Configurado para ignorar archivos innecesarios
+  ✅ README.md - Documentación completa
+  ✅ GITHUB_SETUP.md - Instrucciones paso a paso
+  ✅ ANTES_DE_PUSH.md - Checklist final
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 PASOS PARA HACER PUSH (MUY SIMPLE)
+
+1. Abre PowerShell o Git Bash
+
+2. Navega a tu proyecto:
+   cd C:\Users\crist\Downloads\taskflow_1\taskflow_final
+
+3. Copia y pega TODOS estos comandos juntos:
+
+═══════════════════════════════════════════════════════════════════════════════
+
+git config --global user.name "Cristina Cáceres"
+git config --global user.email "lcaceres81@gmail.com"
+
+git init
+
+git add -A
+
+git commit -m "🎉 Inicial: TaskFlow - Sistema completo de gestión de proyectos
+
+✨ Características:
+- Autenticación JWT con refresh tokens
+- Tablero Kanban drag & drop
+- Asistente Virtual inteligente
+- Accesibilidad WCAG 2.1 AA completa
+- Cronómetro con historial
+- Dashboard y reportes
+- API REST con Express + PostgreSQL"
+
+git remote add origin https://github.com/aria267-lab/proyecto-taskflow.git
+
+git branch -M main
+
+git push -u origin main
+
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️ SI TE PIDE CONTRASEÑA:
+
+En lugar de contraseña, necesitas un TOKEN DE GITHUB:
+
+Paso 1: Crear token en GitHub
+  1. Ve a https://github.com/settings/tokens
+  2. Click en "Generate new token"
+  3. Dale nombre: "TaskFlow Push"
+  4. Selecciona: ☑ repo (acceso completo a repositorios)
+  5. Click "Generate token"
+  6. 📋 COPIA EL TOKEN (no lo pierdas)
+
+Paso 2: En PowerShell, cuando pida contraseña:
+  Usuario: aria267-lab (tu usuario de GitHub)
+  Contraseña: [Pega aquí el token que copiaste]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ DESPUÉS DE HACER PUSH
+
+Verás mensajes como:
+  ✓ Creating initial commit
+  ✓ Counting objects...
+  ✓ Compressing objects...
+  ✓ Writing objects...
+  ✓ remote: Creating pull request...
+  ✓ To https://github.com/aria267-lab/proyecto-taskflow.git
+
+¡LISTO! Tu proyecto estará en GitHub:
+  https://github.com/aria267-lab/proyecto-taskflow
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔄 CAMBIOS FUTUROS (AUTOMÁTICO)
+
+Cada vez que hagas cambios, en PowerShell:
+
+  git add -A
+  git commit -m "Descripción del cambio"
+  git push origin main
+
+Ejemplo:
+  git commit -m "✨ Mejorado asistente virtual"
+  git commit -m "🐛 Arreglado error en Kanban"
+  git commit -m "♿ Mejorado contraste en accesibilidad"
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📞 SI NECESITAS AYUDA
+
+Si algo sale mal:
+1. Lee el mensaje de error
+2. Copia el error y búscalo en Google
+3. Generalmente es por token inválido o usuario incorrecto
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ LISTO PARA COMENZAR!
+
+Tu proyecto TaskFlow está 100% funcional y listo para GitHub.
+
+¡Adelante! 🚀
