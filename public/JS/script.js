@@ -3,7 +3,7 @@
 /* ══════════════════════════════════════════════
    CONFIGURACIÓN  ─  cambia BASE_URL si despliegas
 ══════════════════════════════════════════════ */
-const BASE_URL = '';   // vacío = mismo origen (Express sirve el HTML)
+const BASE_URL = 'https://taskflow-production-ee98.up.railway.app';   // vacío = mismo origen (Express sirve el HTML)
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem('tf_access_token');
